@@ -171,12 +171,32 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
 // ---------------------------------------------------------------------------
 export const PROJECTS: Project[] = [
   {
+    id: "whisper-voice-fashion",
+    title: "Whisper Voice Fashion NIM AI Agent",
+    description:
+      "Whisper voice agent e-commerce product for fashion product purchase, leveraging Generative AI and voice interfaces.",
+    techStack: ["Python", "NVIDIA NIM", "Whisper", "Generative AI"],
+    githubUrl: "https://github.com/naveentnj/whisper_voice_fashion_nim_ai_agent",
+    category: "Generative AI",
+    featured: true,
+  },
+  {
+    id: "climate-analyser-dashboard",
+    title: "Climate Analyser Dashboard NIM Project",
+    description:
+      "NVIDIA Nemo Climate Analyzer Project Dashboard with advanced features for data analytics and visualization.",
+    techStack: ["NVIDIA NeMo", "Python", "Data Analytics", "Dashboard"],
+    githubUrl: "https://github.com/naveentnj/climate-analyser-dashboard-nim-project",
+    category: "Generative AI",
+    featured: true,
+  },
+  {
     id: "robobrain",
     title: "RoboBrain-Agent",
     description:
       "An intelligent robotic agent that combines vision-language models with reinforcement learning for autonomous manipulation and navigation in unstructured environments.",
     techStack: ["Python", "ROS2", "Isaac Sim", "VLM", "RL", "Docker"],
-    githubUrl: "https://github.com/naveenr/robobrain-agent",
+    githubUrl: "https://github.com/naveentnj/RoboKnowledgeOS",
     category: "Robotics",
     featured: true,
   },
@@ -186,7 +206,7 @@ export const PROJECTS: Project[] = [
     description:
       "Implementation of world models and action prediction architectures that enable robots to simulate outcomes before acting in the physical world.",
     techStack: ["Python", "PyTorch", "Isaac Lab", "Genesis", "VLA"],
-    githubUrl: "https://github.com/naveenr/world-action-models",
+    githubUrl: "https://github.com/naveentnj/Industrial-WAM-Lab",
     category: "Physical AI",
     featured: true,
   },
@@ -196,7 +216,7 @@ export const PROJECTS: Project[] = [
     description:
       "A comprehensive evaluation framework for Graph-based Retrieval Augmented Generation systems, measuring faithfulness, relevance, and multi-hop reasoning.",
     techStack: ["Python", "LangGraph", "Neo4j", "LLM", "GraphRAG"],
-    githubUrl: "https://github.com/naveenr/graphrag-eval",
+    githubUrl: "https://github.com/naveentnj/graphrag-eval",
     category: "Agentic AI",
     featured: true,
   },
@@ -206,7 +226,7 @@ export const PROJECTS: Project[] = [
     description:
       "End-to-end guide for deploying AI models on Qualcomm Snapdragon platforms using AI Hub, ONNX, and QNN SDK for real-time edge inference.",
     techStack: ["Qualcomm AI Hub", "Snapdragon", "ONNX", "TensorRT", "Python"],
-    githubUrl: "https://github.com/naveenr/qualcomm-edge-ai",
+    githubUrl: "https://github.com/naveentnj/qualcomm-edge-ai",
     category: "Edge AI",
     featured: true,
   },
@@ -216,7 +236,7 @@ export const PROJECTS: Project[] = [
     description:
       "A curated repository of tutorials, research summaries, and code examples covering ROS2, simulation, SLAM, path planning, and robot learning.",
     techStack: ["ROS2", "Gazebo", "Python", "C++", "SLAM"],
-    githubUrl: "https://github.com/naveenr/robotics-hub",
+    githubUrl: "https://github.com/naveentnj/robotics-hub",
     category: "Robotics",
     featured: true,
   },
@@ -226,7 +246,7 @@ export const PROJECTS: Project[] = [
     description:
       "Visual explainers and interactive notebooks covering diffusion models, GANs, VAEs, transformers, and prompt engineering techniques.",
     techStack: ["Python", "Diffusion", "Stable Diffusion", "ComfyUI", "LLM"],
-    githubUrl: "https://github.com/naveenr/genai-visual",
+    githubUrl: "https://github.com/naveentnj/genai-visual",
     category: "Generative AI",
     featured: true,
   },
@@ -348,6 +368,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "GraphRAG",
     date: "2024-12-15",
     readTime: "8 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["GraphRAG", "LLM", "Knowledge Graphs"],
   },
   {
@@ -358,6 +379,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "Physical AI",
     date: "2024-11-20",
     readTime: "10 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["Physical AI", "Robotics", "VLA"],
   },
   {
@@ -368,6 +390,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "World Action Models",
     date: "2024-10-10",
     readTime: "7 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["World Models", "Robotics", "Simulation"],
   },
   {
@@ -378,6 +401,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "Robotics",
     date: "2024-09-05",
     readTime: "12 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["ROS2", "Isaac Sim", "RL"],
   },
   {
@@ -388,6 +412,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "Qualcomm Edge AI",
     date: "2024-08-15",
     readTime: "9 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["Qualcomm", "Edge AI", "ONNX"],
   },
   {
@@ -398,6 +423,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "LLMs",
     date: "2024-07-20",
     readTime: "11 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["Agentic AI", "LangGraph", "CrewAI"],
   },
   {
@@ -408,6 +434,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "VLSI",
     date: "2024-06-01",
     readTime: "8 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["VLSI", "SoC", "ARM"],
   },
   {
@@ -418,6 +445,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "Computer Vision",
     date: "2024-05-10",
     readTime: "7 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["Computer Vision", "YOLO", "SAM"],
   },
   {
@@ -428,6 +456,7 @@ export const BLOG_POSTS: BlogPost[] = [
     topic: "Agentic AI",
     date: "2024-04-18",
     readTime: "6 min",
+    url: "https://medium.com/@rnaveen.tkt",
     tags: ["Agentic AI", "Agents", "LLM"],
   },
 ];
@@ -456,6 +485,21 @@ export const EXPERIENCES: Experience[] = [
     period: "2023 — Present",
     description:
       "Focused on autonomous robotics using ROS2, NVIDIA Isaac Sim, and reinforcement learning for manipulation and navigation tasks.",
+    highlights: [
+      "Built autonomous navigation systems with ROS2",
+      "Trained robotic policies in Isaac Sim & Isaac Lab",
+      "Explored sim-to-real transfer techniques",
+    ],
+    icon: "bot",
+    color: "from-emerald-500 to-teal-600",
+  },
+  {
+    id: "generative-ai-intern-techolution",
+    title: "AI Intern",
+    organization: "techolution",
+    period: "April 2024 — November 2024",
+    description:
+      "Focused on ",
     highlights: [
       "Built autonomous navigation systems with ROS2",
       "Trained robotic policies in Isaac Sim & Isaac Lab",
@@ -495,7 +539,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "vlsi",
     title: "VLSI & Semiconductor Learning",
-    period: "2024 — Present",
+    period: "January 2026 — Present",
     description:
       "Studied semiconductor engineering fundamentals including SoC architecture, ARM processors, and hardware-software co-design.",
     highlights: [
@@ -530,7 +574,7 @@ export const SITE_CONFIG = {
   title: "Naveen R | Robotics AI Engineer",
   description:
     "Portfolio of Naveen R — Robotics AI Engineer specializing in Physical AI, Intelligent Robotics, Edge AI Systems, Generative AI, Computer Vision, and VLSI Engineering.",
-  url: "https://naveenr.dev",
+  url: "https://naveen-r-portfolio-website.vercel.app/",
   locale: "en_US",
   keywords: [
     "Robotics AI Engineer",
