@@ -134,9 +134,14 @@ export function HeroSection() {
             variant="secondary"
             size="lg"
             icon={<FileDown className="w-5 h-5" />}
-            onClick={() => window.open("/resume.pdf", "_blank")}
+            onClick={() =>
+              window.open(
+                "https://github.com/naveentnj/Naveen_R_Portfolio_Website/blob/main/public/resume.pdf",
+                "_blank"
+              )
+            }
           >
-            Download Resume
+            View Resume
           </Button>
           <Button
             variant="secondary"
